@@ -1,0 +1,33 @@
+
+.hh {
+  display: none;
+}
+
+.colorKO {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.bn {
+  width: 400px;
+}
+@media screen and (min-width: 360px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .bn {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 425px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}
